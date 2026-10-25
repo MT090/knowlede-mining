@@ -8,3 +8,13 @@ wheels/
 
 # Virtual environments
 .venv
+
+# DuckDB database files
+*.duckdb
+*.duckdb.wal
+
+# Raw CSV data (large files – download separately)
+data/raw/*.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
